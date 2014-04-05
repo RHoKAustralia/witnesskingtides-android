@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+<LinearLayout 
+    android:id="@+id/linearLayoutid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter your name"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your e-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/describe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="0.82"
+        android:ems="10"
+        android:hint="Enter a brief discription of the picture."
+        android:inputType="textMultiLine"
+        android:layout_gravity="top"
+        android:scrollbars="vertical"
+		android:fadeScrollbars="true"
+       	android:gravity="top"
+       	android:focusable="true"
+        android:focusableInTouchMode="true"/>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Upload"
+        android:layout_gravity="bottom"
+        android:onClick="onUpload" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kingtide Watchers</string>
+    
+    
+    				<!-- Strings for the Home screen  -->
+    				
+    <string name = "kingtide_details">Kingtide Details</string>
+    <string name = "upload"> Upload Photo</string>
+    <string name = "info">About Kingtides</string>
+  
+    
+    				<!-- Strings for the state select drop down(spinner) box(Kingtide list class)  -->    				    		    			    
+    
+    <string-array name="states">
+        <item> All States </item>
+        <item> Queensland </item>
+        <item> New South Wales </item>
+        <item> Victoria </item>
+        <item> Tasmania </item>
+        <item> South Australia </item>
+        <item> Western Australia </item>
+        <item> Northern Territory </item>
+    </string-array>
+    
+    <string name = "onClickHint">Select a Kingtide event to show location on a map and get directions</string>
+    
+    <string name = "not_Online_Error"> Please connect to the internet to download Kingtide details</string>
+       
+    
+    				<!-- Strings for Get_pic class  -->
+    				
+    <string name = "take_pic"> Take Photo</string>
+    <string name = "choose_pic"> Choose photo from gallery</string>    
+    <string name = "cont"> Continue</string>   
+    <string name = "preview">Preview of photo</string>
+    
+    				<!-- No Gps alert dialog strings(Get_pic class) -->
+    
+    
+    <string name = "no_GPS">Hi, looks like you have your GPS location tracking disabled. 
+                            Enabling GPS will allow us to acurately capture your location 
+                            and upload you photo with the right King Tide event.
+                            </string>
+                            
+    <string name = "no_GPS_title">GPS location tracking disabled</string>  
+    <string name = "on_GPS">Turn on GPS</string>    
+    <string name = "no_Gps_cont">Continue without GPS</string>   
+    <string name = "select_pic"> Please select a photo from you gallery or take a new picture to continue </string>
+
+</resources>
